@@ -1,0 +1,60 @@
+.side-nav{
+    background-color: #e2e2ef;
+    width: 17%;
+    justify-content: left;
+    height: 100vh;
+    font-weight: bold;
+
+
+}
+.main-user-body{
+    justify-content: left;
+    padding-left: 5%;
+    padding-top: 5%;
+    background-color: rgb(228, 247, 253);
+    height: 100vh;
+    width: 82%;
+
+}
+
+.form-group{
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+
+.form-group label{
+    font-weight: bold;
+}
+
+.main-body{
+    background-color: rgb(228, 247, 253);
+    height: 100vh;
+    width: 82%;
+}
+
+.main-container{
+    background-color: rgb(228, 247, 253);
+    display: flex;
+    height: 100vh;
+}
+
+.user-data{
+    display: flex;
+}
+
+.photo{
+    justify-content: left;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.info-text{
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.main-text{
+    padding-top: 5%;
+    padding-left: 5%;
+
+}
