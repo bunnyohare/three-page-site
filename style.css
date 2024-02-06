@@ -4,12 +4,29 @@
     padding: 0;
   }
 
+#my-bootstrap-grid{
+    display: flex;
+    width: auto;
+}
+
 #nav{
-    background-color: #9c89b8;
+    background-color: #efc3e6;
     font-weight: bold;
 }
 
-ul {
+ .container-fluid{
+    background-color: #efc3e6; 
+} 
+
+.dropdown-menu{
+    background-color: #efc3e6;
+}
+}
+
+/* #collapse navbar-collapse{
+
+} */
+/* ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -31,12 +48,17 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
+  } */
   
+li{
+    background-color: #efc3e6;
+    color: black;
+}
+
   li a:hover:not(.active) {
     background-color: #efc3e6;
     color: black;
-  }
+  } 
   
   .active {
     background-color: #F0A6CA;
