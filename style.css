@@ -1,5 +1,15 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+.top-nav{
+    background-color: #9c89b8;
+}
+
 .side-nav{
-    background-color: #e2e2ef;
+    background-color: #B8BEDD;
     width: 17%;
     justify-content: left;
     height: 100vh;
@@ -11,12 +21,14 @@
     justify-content: left;
     padding-left: 5%;
     padding-top: 5%;
-    background-color: rgb(228, 247, 253);
+    background-color: #F0E6EF;
     height: 100vh;
     width: 82%;
 
 }
-
+.footer{
+    background-color: #9c89b8;
+}
 .form-group{
     padding-top: 5%;
     padding-left: 5%;
@@ -28,13 +40,13 @@
 }
 
 .main-body{
-    background-color: rgb(228, 247, 253);
+    background-color: #F0E6EF;
     height: 100vh;
     width: 82%;
 }
 
 .main-container{
-    background-color: rgb(228, 247, 253);
+    background-color: #F0E6EF;
     display: flex;
     height: 100vh;
 }
