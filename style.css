@@ -4,6 +4,10 @@
     padding: 0;
   }
 
+img{
+   margin: 2%; 
+}
+
 #my-bootstrap-grid{
     display: flex;
     width: auto;
