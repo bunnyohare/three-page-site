@@ -130,3 +130,35 @@ li{
     padding-left: 5%;
 
 }
+.boxes {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+#boxAnimateOne{
+    color: white;
+    background-color: #9c89b8;
+    transition-property: width, height;
+    transition-duration: 2s;
+
+}
+
+#boxAnimateOne:hover{
+    width:100px;
+    height:100px;
+
+}
+
+#boxAnimateTwo{
+    color: white;
+    background-color: #F0A6CA;
+    transition-duration: 2s;
+ }
+
+ #boxAnimateTwo:hover{
+    color: black;
+    background-color: #B8BEDD; 
+    transform:rotate(360deg);
+ }
